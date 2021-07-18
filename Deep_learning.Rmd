@@ -185,7 +185,7 @@ A natural way to expand the logistic regression model is to include non-linear e
 Neural network is easily described by a diagram or so called architecture. It shows the model between input and output. A neural network consists of three major layers: input layer, hidden layers and output layer. When we say $N$-layer neural network, we do not count the input layer as convention.
 
 
-As a simple example, consider the setup: we have (x_1, x_2, x_3, y), where there are 3 features and one binary response. Let's start with the following neural network with **one hidden layer** with one hidden layer consists of **4 neurons**. We have 3 features for each data point and 2 classes to predict. 
+As a simple example, consider the setup: we have $(x_1, x_2, x_3, y)$, where there are 3 features and one binary response. Let's start with the following neural network with **one hidden layer** with one hidden layer consists of **4 neurons**. We have 3 features for each data point and 2 classes to predict. 
 
 ```{r out.width = "500px", echo = F, fig.cap="1-layer Neural network model"}
 knitr::include_graphics("img/nn.png")
